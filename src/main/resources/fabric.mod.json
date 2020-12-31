@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "tut",
+  "version": "${version}",
+
+  "name": "Tutorial Mod",
+  "description": "Wow, a Mod that Has No point",
+  "authors": [
+    "Sneakyassasin01"
+  ],
+  "contact": {
+    "homepage": "Https://sneaky.github.io/",
+    "sources": "https://github.com/SneakyAssasin01/Tutorial"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tut/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sneaky.tutorial.Tutorial"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "tut:ruby"
+    }
+  },
+  "result": {
+    "item": "tut:ruby_block",
+    "count": 1
+  }
+}
